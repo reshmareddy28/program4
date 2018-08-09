@@ -6,13 +6,14 @@ class Ideone
     {
     	Scanner sc=new Scanner(System.in);
         int n = sc.nextInt();
-        if(n%2==0)
+        int m= sc.nextInt();
+        if((n*m)%2==0)
 	{
-        System.out.println(n);
+        System.out.println("even");
 	}
 	else
 	{
-		System.out.println(n-1);
+		System.out.println("odd");
 	}
     }
 }
